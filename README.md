@@ -2,13 +2,17 @@
 `PKG_CONFIG_PATH=/home/matt/dev/hyperscan/build/chimera cargo bench -- --nocapture`
 
 ```
-test bench_hyperscan_15_quads    ... bench:       5,444 ns/iter (+/- 217)
-test bench_hyperscan_30_quads    ... bench:      11,907 ns/iter (+/- 191)
-test bench_hyperscan_single_quad ... bench:         447 ns/iter (+/- 25)
-test bench_hyperscan_trivial     ... bench:         208 ns/iter (+/- 13)
-test bench_regex_15_quads        ... bench:      23,352 ns/iter (+/- 401)
-test bench_regex_30_quads        ... bench:      38,216 ns/iter (+/- 987)
-test bench_regex_single_quad     ... bench:       1,083 ns/iter (+/- 22)
+test bench_hyperscan_15_quads            ... bench:       5,646 ns/iter (+/- 131)
+test bench_hyperscan_15_quads_full_regex ... bench:      15,923 ns/iter (+/- 1,923)
+test bench_hyperscan_30_quads            ... bench:      12,499 ns/iter (+/- 381)
+test bench_hyperscan_30_quads_full_regex ... bench:      31,183 ns/iter (+/- 1,407)
+test bench_hyperscan_single_quad         ... bench:         467 ns/iter (+/- 25)
+test bench_hyperscan_trivial             ... bench:         212 ns/iter (+/- 15)
+test bench_regex_15_quads                ... bench:      23,968 ns/iter (+/- 996)
+test bench_regex_15_quads_full_regex     ... bench:      23,392 ns/iter (+/- 1,461)
+test bench_regex_30_quads                ... bench:      38,794 ns/iter (+/- 1,633)
+test bench_regex_30_quads_full_regex     ... bench:      40,568 ns/iter (+/- 1,397)
+test bench_regex_single_quad             ... bench:       1,086 ns/iter (+/- 97)
 ```
 
 ### Build
