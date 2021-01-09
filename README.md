@@ -2,17 +2,19 @@
 `PKG_CONFIG_PATH=/home/matt/dev/hyperscan/build/chimera cargo bench -- --nocapture`
 
 ```
-test bench_hyperscan_15_quads            ... bench:       5,646 ns/iter (+/- 131)
-test bench_hyperscan_15_quads_full_regex ... bench:      15,923 ns/iter (+/- 1,923)
-test bench_hyperscan_30_quads            ... bench:      12,499 ns/iter (+/- 381)
-test bench_hyperscan_30_quads_full_regex ... bench:      31,183 ns/iter (+/- 1,407)
-test bench_hyperscan_single_quad         ... bench:         467 ns/iter (+/- 25)
-test bench_hyperscan_trivial             ... bench:         212 ns/iter (+/- 15)
-test bench_regex_15_quads                ... bench:      23,968 ns/iter (+/- 996)
-test bench_regex_15_quads_full_regex     ... bench:      23,392 ns/iter (+/- 1,461)
-test bench_regex_30_quads                ... bench:      38,794 ns/iter (+/- 1,633)
-test bench_regex_30_quads_full_regex     ... bench:      40,568 ns/iter (+/- 1,397)
-test bench_regex_single_quad             ... bench:       1,086 ns/iter (+/- 97)
+test bench_hyperscan_15_quads                 ... bench:       5,386 ns/iter (+/- 137)
+test bench_hyperscan_15_quads_full_regex      ... bench:      16,511 ns/iter (+/- 831)
+test bench_hyperscan_30_quads                 ... bench:      11,783 ns/iter (+/- 411)
+test bench_hyperscan_30_quads_full_regex      ... bench:      31,354 ns/iter (+/- 1,687)
+test bench_hyperscan_single_quad              ... bench:         437 ns/iter (+/- 17)
+test bench_hyperscan_trivial                  ... bench:         218 ns/iter (+/- 4)
+test bench_hyperscan_veres_one_did_full_regex ... bench:      29,302 ns/iter (+/- 1,117)
+test bench_regex_15_quads                     ... bench:      23,968 ns/iter (+/- 713)
+test bench_regex_15_quads_full_regex          ... bench:      23,019 ns/iter (+/- 1,951)
+test bench_regex_30_quads                     ... bench:      38,879 ns/iter (+/- 1,314)
+test bench_regex_30_quads_full_regex          ... bench:      40,293 ns/iter (+/- 1,065)
+test bench_regex_single_quad                  ... bench:       1,106 ns/iter (+/- 54)
+test bench_regex_veres_one_did_full_regex     ... bench:      64,839 ns/iter (+/- 2,920)
 ```
 
 ### Build
